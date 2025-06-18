@@ -1,7 +1,7 @@
-package com.logstream.gateway.controller;
+package com.logstream.log_gateway.controller;
 
-import com.logstream.gateway.dto.LogRequest;
-import com.logstream.gateway.service.LogService;
+import com.logstream.log_gateway.model.LogRequest;
+import com.logstream.log_gateway.server.LogService;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 

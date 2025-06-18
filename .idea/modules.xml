@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/log-stream.iml" filepath="$PROJECT_DIR$/.idea/log-stream.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/log-gateway.main.iml" filepath="$PROJECT_DIR$/.idea/modules/log-gateway.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/log-processor.main.iml" filepath="$PROJECT_DIR$/.idea/modules/log-processor.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/log-common/logstream.log-common.main.iml" filepath="$PROJECT_DIR$/.idea/modules/log-common/logstream.log-common.main.iml" />
     </modules>
   </component>
 </project>

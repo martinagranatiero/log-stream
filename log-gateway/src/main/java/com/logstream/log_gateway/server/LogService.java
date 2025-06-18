@@ -1,7 +1,7 @@
-package com.logstream.gateway.service;
+package com.logstream.log_gateway.server;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.logstream.gateway.dto.LogRequest;
+import com.logstream.log_gateway.model.LogRequest;
 import org.springframework.data.redis.connection.stream.MapRecord;
 import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.stereotype.Service;
