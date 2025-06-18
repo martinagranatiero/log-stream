@@ -1,11 +1,11 @@
-configurations {
-	compileOnly {
-		extendsFrom annotationProcessor
-	}
+plugins {
+	id 'org.springframework.boot'
+	id 'io.spring.dependency-management'
+	id 'java'
 }
 
 dependencies {
 	implementation project(':log-common')
-	implementation 'org.springframework.boot:spring-boot-starter-data-redis'
-	implementation 'org.springframework.boot:spring-boot-starter'
+	implementation 'org.springframework.boot:spring-boot-starter-data-redis:2.7.10'
+	implementation 'org.springframework.boot:spring-boot-starter:3.1.4'
 }
